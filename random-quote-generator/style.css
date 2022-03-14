@@ -1,0 +1,82 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-image: url("https://steemitimages.com/DQmNYdoNk7WdHpghuAy9Pzes3mdsEkojE8XRTysKgUm6p4w/life.jpg");
+  color: #64B5F6;
+  font-family: "Verdana", "Corbel";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#quote-box {
+  margin-top: 30px;
+  width: 500px;
+  height: auto;
+  background-color: #FFF;
+  position: relative;
+  top: 5em;
+  border-radius: 5px;
+  padding: 30px 15px;
+  padding-bottom: 70px;
+}
+#quote-box .quote-text {
+  display: flex;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 0px 10px;
+  height: auto;
+}
+#quote-box .quote-text i {
+  position: relative;
+  float: right;
+}
+#quote-box .quote-author {
+  text-align: right;
+  padding: 0px 20px;
+  margin: 15px;
+}
+#quote-box .button {
+  position: relative;
+  color: #FFF;
+  background-color: #64B5F6;
+  padding: 10px;
+}
+#quote-box #new-quote {
+  position: relative;
+  display: flex;
+  float: right;
+  border-radius: 10px;
+  margin: 10px;
+  outline: none;
+  cursor: pointer;
+}
+#quote-box #new-quote:hover {
+  opacity: 0.8;
+}
+#quote-box #tweet-quote {
+  position: relative;
+  display: flex;
+  float: left;
+  border-radius: 10px;
+  margin: 10px;
+}
+#quote-box #tweet-quote:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    width: 100%;
+  }
+
+  #quote-box {
+    margin: 30px 20px;
+    width: 90%;
+    padding: 30px 0px;
+    padding-bottom: 70px;
+  }
+}

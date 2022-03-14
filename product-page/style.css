@@ -1,0 +1,430 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#page-wrapper {
+  position: relative;
+}
+
+
+/* Here starts header */
+header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: #DAA520;
+}
+
+#header-img {
+  float: left;
+  display: block;
+  text-align: center;
+  margin: 5px;
+  border-radius: 40%;
+  height: 60px;
+}
+
+#title {
+  float: left;
+  display: block;
+  margin: 20px 10px;
+  font-family: "Ink Free", "consolas";
+  font-weight: bold;
+  font-size: 55px;
+}
+
+.nav-bar a {
+  float: right;
+  display: block;
+  text-align: center;
+  margin: 20px 30px;
+  text-decoration: none;
+  font-family: "consolas";
+  font-weight: bold;
+  color: #000;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 400px) {
+  header {
+    flex-wrap: flex;
+  }
+  .nav-bar {
+    width: 100%;
+    text-align: center;
+  }
+  .nav-bar a {
+    margin: 0px 2px;
+    font-size: 5px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row-reverse;
+  } 
+}
+
+@media screen and (max-width: 48em) {
+  #header-img {
+    height: 45px;
+    position: relative;
+    left: 5px;
+  }
+  #title {
+    font-size: 35px;
+    text-align: center;
+    width: 100%;
+    margin-top: 5px;
+  }
+  .nav-bar {
+    width: 100%;
+    text-align: center;
+  }
+  .nav-bar a {
+    margin: 0px 20px;
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+  } 
+}
+@media screen and (max-width: 64em) {
+  #header-img {
+    height: 45px;
+    position: absolute;
+    left: 5px;
+  }
+  #title {
+    font-size: 35px;
+    text-align: center;
+    width: 100%;
+    margin-top: 5px;
+  }
+  .nav-bar {
+    width: ;
+    text-align: center;
+  }
+  .nav-bar a {
+    margin: 0px 15px;
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+  }
+}
+/* Here starts body */
+#container {
+  max-width: 85.375em;
+  width: 100%;
+  min-height: 50px;
+}
+#body {
+  background-color: #E0E0E0;
+  font-family: "Constantia", "Source Sans Pro";
+  line-height: 30px;
+  text-align: center;
+}
+@media screen and (max-width: 48em) {
+  #container {
+    min-height: 70px;
+  }
+  body {
+    width: 100%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 64em) {
+  #container {
+    min-height: 70px;
+  }
+  body {
+    width: 100%;
+    height: auto;
+  }
+}
+/* Here starts form part */
+#welcome {
+  display: block;
+  margin: 0px 30% 40px 30%;
+  padding: 8px;
+  background-color: #9E9E9E;
+  line-height: 40px;
+}
+#email {
+  height: 30px;
+  width: 50%;
+  border: 1px solid #E0E0E0;
+}
+#submit {
+  height: 25px;
+  width: 25%;
+  background-color: #FFCA28;
+}
+
+#submit:hover {
+  background-color: #FFA726;
+  transition: background-color 0.5s;
+}
+/* Media form part*/
+@media screen and (max-width: 48em) {
+  #welcome {
+    margin: 0px 15% 30px 15%;
+    height: 130px;
+    line-height: 20px;
+  }
+  #best-alloy {
+    font-size: 20px;
+  }
+  #email {
+    margin: 10px 0px;
+    width: 60%;
+    font-size: 10px;
+    height: 20px;
+  }
+  #submit {
+    font-size: 10px;
+    height: 15px;
+    width: 27%;
+  }
+}
+
+@media screen and (max-width: 64em) {
+  #welcome {
+    margin: 0px 15% 30px 15%;
+    height: 130px;
+    line-height: 20px;
+  }
+  #best-alloy {
+    font-size: 20px;
+  }
+  #email {
+    margin: 10px 0px;
+    width: 60%;
+    font-size: 10px;
+    height: 20px;
+  }
+  #submit {
+    font-size: 10px;
+    height: 15px;
+    width: 27%;
+  }
+}
+/* Here starts pros and cons part */
+
+.feat {
+  display: grid;
+  grid-template-columns: 50px 100px;
+  text-align: left;
+  margin: 0px 12%;
+  padding: 0px 0px;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 125px;
+  color: #DAA520;
+  }
+.desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 900px;
+  margin-left: 30%;
+}
+h3 {
+  font-size: 25px;
+}
+h4 {
+  text-align: left;
+  margin: 0px 18.5%;
+  text-decoration: underline;
+  font-size: 22px;
+}
+
+.procon-section {
+  font-size: 20px;
+}
+
+#expencive {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 48em) {
+  .feat {
+    grid-template-columns: 60px 1fr;
+    max-width: 100%;
+    margin: 5px 5px;
+  }
+  .desc {
+    width: 100%;
+    margin-left: 0px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h4 {
+    margin: 0px 11%;
+    font-size: 15px;
+  }
+  h5 {
+    font-size: 12px;
+  }
+  .info {
+    font-size: 10px;
+    line-height: 20px;
+  }
+}
+@media screen and (max-width: 64em) {
+  .feat {
+    grid-template-columns: 60px 1fr;
+    max-width: 100%;
+    margin: 5px 5px;
+  }
+  .desc {
+    width: 100%;
+    margin-left: 0px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h4 {
+    margin: 0px 11%;
+    font-size: 15px;
+  }
+  h5 {
+    font-size: 12px;
+  }
+  .info {
+    font-size: 10px;
+    line-height: 20px;
+  }  
+}
+/* Here starts video part*/
+#video-caption {
+  margin: 30px 0px;
+}
+iframe {
+  max-width: 560px;
+  width: 100%;
+}
+@media screen and (max-width: 48em) {
+  iframe {
+    width: 80%;
+    height: 150px;
+  }
+}
+@media screen and (max-width: 64em) {
+  iframe {
+    width: 80%;
+    height: 150px;
+  }
+}
+/* Here starts prices part */
+#sell-capt {
+  margin-top: 3%;
+}
+
+.sell-box {
+  display: block;
+  margin: 2% 35%;
+  background-color: #9E9E9E;
+  border: 1px solid;
+}
+
+.sell-img {
+  height: 200px;
+  width: 200px;
+  border-radius: 2%;
+}
+
+.caption {
+  display: block;
+  width: 100%;
+  background-color: #757575;
+  height: 40px;
+}
+
+.sell-head {
+  font-size: 20px;
+  padding-top: 1%;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.item-price {
+  padding: 2% 0px;
+}
+.btn {
+  width: 30%;
+  margin-bottom: 10px;
+  background-color: #FFCA28;
+}
+  
+.btn:hover{
+    background-color: #FFA726;
+    transition: background-color 0.5s;
+}
+
+@media screen and (max-width: 48em) {
+  .sell-box {
+    margin: 2% 20%;
+  }
+  .sell-img {
+    width: 110px;
+    height: 100px;
+  }
+  .caption {
+    height: 30px;
+  }
+  .sell-head {
+    font-size: 15px;
+    padding-top: 0px;
+  }
+}
+@media screen and (max-width: 64em) {
+  .sell-box {
+    margin: 2% 20%;
+  }
+  .sell-img {
+    width: 110px;
+    height: 100px;
+  }
+  .caption {
+    height: 30px;
+  }
+  .sell-head {
+    font-size: 15px;
+    padding-top: 0px;
+  }
+}
+  
+  
+/* Here starts footer */
+
+footer {
+  display: block;
+  margin: 0px 15%;
+  background-color: #BDBDBD;
+  text-align: right;
+}
+.foot {
+  padding: 1%;
+}
+
+@media screen and (max-width: 48em) {
+  footer {
+    margin: 0px 0px;
+    font-size: 10px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 64em) {
+  footer {
+    margin: 0px 0px;
+    font-size: 10px;
+    padding: 0;
+  }
+}

@@ -1,179 +1,199 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Mathias Ranna personal portfolio</title>
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/css/flag-icon.min.css'>
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <title>Mathias Ranna personal portfolio</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/css/flag-icon.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
 <!-- partial:index.partial.html -->
 <!--FOR ICONS -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 <!--NAVBAR -->
 
 <div id="mySlideNav" class="sidenav">
-  <nav id="NavBar">
-    <a href="javascript:void(0)" class="closeBtn" onclick="closeNav()">&times</a>
-    <a href="#About" onclick = "toAbout()">About</a>
-    <a href="#Projects" onclick = "void(0)">Projects</a>
-    <a href="#Contact" onclick = "void(0)">Contact</a>
-  </nav>
+    <nav id="NavBar">
+        <a href="javascript:void(0)" class="closeBtn" onclick="closeNav()">&times</a>
+        <a href="#About" onclick="toAbout()">About</a>
+        <a href="#Projects" onclick="void(0)">Projects</a>
+        <a href="#Contact" onclick="void(0)">Contact</a>
+    </nav>
 </div>
 
 <span id="navOpener" style="cursor:pointer" onclick="openNav()">&#9776;</span>
 
 <div id="main">
-  <!--INTRO, OPENPAGE -->
-  <div id="intro" class="intro">
-    <div class="headings">
-      <h1 id="Welcome"> Welcome to my portfolio! </h1>
-      <h3 id="entering"> While you are here, take a quick look!<br/> <span id="flag" class="flag-icon flag-icon-ee "></span> </h3>
-    </div>
-    <div id="image-block">
-      <img src="https://live.staticflickr.com/65535/32765661147_a2f6f69b49_o.png" id="profPic" alt="profile" />
-      <a href="https://codepen.io/mathiascoding/" target="_blank" id="under-pic"> @Mathiascoding </a>
-    </div>
-  </div>
-
-  <!-- ABOUT -->
-  <div id="About">
-    <!--About me section -->
-    <div id="About-me">
-      <h2 class="Short">Shortly about me</h2>
-      <p class="Short">As you already saw, I’m from the country that ranks third in Europe regarding the highest number of startups per capital. I would describe myself as <strong style="color: black">young and enthusatic</strong> front-end developer. I have been learning
-        code nearly for 5 months now and till now i have gained all my knowledge on my own. In that time I have accomplished one important objective i put myself- <u style="color: black">#100daysofcoding</u>. It means 100 consecutive days I coded
-        <strong style="color: black">at least</strong> 10 minutes a day. To be honest, learning code isn’t the easiest thing, but that is what makes it interesting. I’m really glad I started learning it and I know it is just the start of my wonderful
-        journey. </p>
+    <!--INTRO, OPENPAGE -->
+    <div id="intro" class="intro">
+        <div class="headings">
+            <h1 id="Welcome"> Welcome to my portfolio! </h1>
+            <h3 id="entering"> While you are here, take a quick look!<br/> <span id="flag"
+                                                                                 class="flag-icon flag-icon-ee "></span>
+            </h3>
+        </div>
+        <div id="image-block">
+            <img src="https://live.staticflickr.com/65535/32765661147_a2f6f69b49_o.png" id="profPic" alt="profile"/>
+            <a href="https://codepen.io/mathiascoding/" target="_blank" id="under-pic"> @Mathiascoding </a>
+        </div>
     </div>
 
-    <!--Natural languages sector -->
-    <div id="Natural-languages">
-      <h2 class="language-head"> Natural languages i speak </h2>
-      <div id="Nat-lang-container">
-        <div id="Estonian" class="Lang-Icons">
-          <i id="Est-flag" class="flag-icon flag-icon-ee"></i>
-          <p class="under-text">Estonian</p>
+    <!-- ABOUT -->
+    <div id="About">
+        <!--About me section -->
+        <div id="About-me">
+            <h2 class="Short">Shortly about me</h2>
+            <p class="Short">As you already saw, I’m from the country that ranks third in Europe regarding the highest
+                number of startups per capital. I would describe myself as <strong style="color: black">young and
+                    enthusatic</strong> front-end developer. I have been learning
+                code nearly for 5 months now and till now i have gained all my knowledge on my own. In that time I have
+                accomplished one important objective i put myself- <u style="color: black">#100daysofcoding</u>. It
+                means 100 consecutive days I coded
+                <strong style="color: black">at least</strong> 10 minutes a day. To be honest, learning code isn’t the
+                easiest thing, but that is what makes it interesting. I’m really glad I started learning it and I know
+                it is just the start of my wonderful
+                journey. </p>
         </div>
-        <div id="English" class="Lang-Icons">
-          <i id="Gb-flag" class="flag-icon flag-icon-gb"></i>
-          <p class="under-text">English</p>
-        </div>
-        <div id="Spanish" class="Lang-Icons">
-          <i id="Esp-flag" class="flag-icon flag-icon-es"></i>
-          <p class="under-text">Spanish</p>
-        </div>
-      </div>
-    </div>
 
-    <!--Programming languages sector -->
-    <div id="Programming-languages">
-      <h2 class="language-head"> Programming languages i speak </h2>
-      <div id="Prog-lang-container">
-        <div id="html-sec" class="Icons">
-          <i class="fab fa-html5"></i>
-          <p class="under-text">HTML</p>
+        <!--Natural languages sector -->
+        <div id="Natural-languages">
+            <h2 class="language-head"> Natural languages i speak </h2>
+            <div id="Nat-lang-container">
+                <div id="Estonian" class="Lang-Icons">
+                    <i id="Est-flag" class="flag-icon flag-icon-ee"></i>
+                    <p class="under-text">Estonian</p>
+                </div>
+                <div id="English" class="Lang-Icons">
+                    <i id="Gb-flag" class="flag-icon flag-icon-gb"></i>
+                    <p class="under-text">English</p>
+                </div>
+                <div id="Spanish" class="Lang-Icons">
+                    <i id="Esp-flag" class="flag-icon flag-icon-es"></i>
+                    <p class="under-text">Spanish</p>
+                </div>
+            </div>
         </div>
-        <div id="CSS-sec" class="Icons">
-          <i class="fab fa-css3-alt"></i>
-          <p class="under-text">CSS</p>
-        </div>
-        <div id="JS-sec" class="Icons">
-          <i class="fab fa-js-square"></i>
-          <p class="under-text">JavaScript</p>
-        </div>
-        <div id="Python-sec" class="Icons">
-          <i class="fab fa-python"></i>
-          <p class="under-text">Python</p>
-        </div>
-      </div>
-      <h2 class="language-head"> I have experience with </h2>
-      <div id="Exp-container">
-        <div id="Bootstrap-sec" class="Icons">
-          <i class="fab fa-bootstrap"></i>
-          <p class="under-text">Bootstrap</p>
-        </div>
-        <div id="React-sec" class="Icons">
-          <i class="fab fa-react"></i>
-          <p class="under-text">React</p>
-        </div>
-      </div>
-    </div>
 
-  </div>
-
-  <!-- PROJECTS -->
-  <div id="Projects">
-    <div id="super-container">
-      <h2 id="Proj-heading"> Here are some of my finished projects </h2>
-      <div id="Proj-container-fline">
-        <div id="Markdown" class="project">
-          <a href="https://codepen.io/mathiascoding/full/gyZvve" target="_blank" class="project-tile">
-          <img class="project-img" src="https://codepen.io/mathiascoding/pen/gyZvve/image/small.png"/>
-          <p class="project-name">Markdown previewer</p>
-        </a>
+        <!--Programming languages sector -->
+        <div id="Programming-languages">
+            <h2 class="language-head"> Programming languages i speak </h2>
+            <div id="Prog-lang-container">
+                <div id="html-sec" class="Icons">
+                    <i class="fab fa-html5"></i>
+                    <p class="under-text">HTML</p>
+                </div>
+                <div id="CSS-sec" class="Icons">
+                    <i class="fab fa-css3-alt"></i>
+                    <p class="under-text">CSS</p>
+                </div>
+                <div id="JS-sec" class="Icons">
+                    <i class="fab fa-js-square"></i>
+                    <p class="under-text">JavaScript</p>
+                </div>
+                <div id="Python-sec" class="Icons">
+                    <i class="fab fa-python"></i>
+                    <p class="under-text">Python</p>
+                </div>
+            </div>
+            <h2 class="language-head"> I have experience with </h2>
+            <div id="Exp-container">
+                <div id="Bootstrap-sec" class="Icons">
+                    <i class="fab fa-bootstrap"></i>
+                    <p class="under-text">Bootstrap</p>
+                </div>
+                <div id="React-sec" class="Icons">
+                    <i class="fab fa-react"></i>
+                    <p class="under-text">React</p>
+                </div>
+            </div>
         </div>
-        <div id="Quote-machine" class="project">
-          <a class="project-tile" href="https://codepen.io/mathiascoding/full/QPydqq" target="_blank">
-          <img class="project-img" src="https://codepen.io/mathiascoding/pen/QPydqq/image/small.png"/>
-          <p class="project-name">Random quote generator</p>
-        </a>
-        </div>
-      </div>
-      <div id="Proj-container-Sline">
-        <div id="Product-landing" class="project">
-          <a href="https://codepen.io/mathiascoding/full/wNdyVX" target="_blank" class="project-tile">
-          <img class="project-img" src="https://codepen.io/mathiascoding/pen/wNdyVX/image/small.png"/>
-          <p class="project-name">Product landing page</p>
-        </a>
-        </div>
-        <div id="Survey" class="project">
-          <a href="https://codepen.io/mathiascoding/full/VgKNma" target="_blank" class="project-tile">
-          <img class="project-img" src="https://codepen.io/mathiascoding/pen/VgKNma/image/small.png"/>
-          <p class="project-name">Survey form</p>
-        </a>
-        </div>
-      </div>
-      <div id="Tribute" class="project">
-        <a href="https://codepen.io/mathiascoding/full/MLKqaY" target="_blank" class="project-tile">
-          <img class="project-img" src="https://codepen.io/mathiascoding/pen/MLKqaY/image/small.png"/>
-          <p class="project-name">Simple tribute page</p>
-        </a>
-      </div>
 
     </div>
-  </div>
 
-  <!-- Contact -->
-  <div id="Contact">
+    <!-- PROJECTS -->
+    <div id="Projects">
+        <div id="super-container">
+            <h2 id="Proj-heading"> Here are some of my finished projects </h2>
+            <div class="Proj-container-line">
+                <div id="Music-Machine" class="project">
+                    <a href="https://mathiasranna.github.io./mathias-music-machine/" target="_blank"
+                       class="project-tile">
+                        <img class="project-img" src="https://codepen.io/mathiascoding/pen/yWrgaa/image/small.png"
+                             alt=""/>
+                        <p class="project-name">Music Machine</p>
+                    </a>
+                </div>
+                <div id="Markdown" class="project">
+                    <a href="https://codepen.io/mathiascoding/full/gyZvve" target="_blank" class="project-tile">
+                        <img class="project-img" src="https://codepen.io/mathiascoding/pen/gyZvve/image/small.png"/>
+                        <p class="project-name">Markdown previewer</p>
+                    </a>
+                </div>
+            </div>
+            <div class="Proj-container-line">
+                <div id="Quote-machine" class="project">
+                    <a class="project-tile" href="https://codepen.io/mathiascoding/full/QPydqq" target="_blank">
+                        <img class="project-img" src="https://codepen.io/mathiascoding/pen/QPydqq/image/small.png"/>
+                        <p class="project-name">Random quote generator</p>
+                    </a>
+                </div>
+
+
+                <div id="Product-landing" class="project">
+                    <a href="https://codepen.io/mathiascoding/full/wNdyVX" target="_blank" class="project-tile">
+                        <img class="project-img" src="https://codepen.io/mathiascoding/pen/wNdyVX/image/small.png"/>
+                        <p class="project-name">Product landing page</p>
+                    </a>
+                </div>
+            </div>
+            <div class="Proj-container-line">
+                <div id="Survey" class="project">
+                    <a href="https://codepen.io/mathiascoding/full/VgKNma" target="_blank" class="project-tile">
+                        <img class="project-img" src="https://codepen.io/mathiascoding/pen/VgKNma/image/small.png"/>
+                        <p class="project-name">Survey form</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Contact -->
+<div id="Contact">
     <h2 id="contact-title" class="contact-text"> Lets work together! </h2>
     <h3 id="explain" class="contact-text">Choose by which method would you like to contact me! </h3>
-    <a href="https://www.facebook.com/mathias.ranna.5" target="_blank" class="contact-details" style="text-decoration: none;">
-    <i class="fab fa-3x fa-facebook"></i>
-  </a>
+    <a href="https://www.facebook.com/mathias.ranna.5" target="_blank" class="contact-details"
+       style="text-decoration: none;">
+        <i class="fab fa-3x fa-facebook"></i>
+    </a>
 
-    <a href="mailto:mathiasranna@gmail.com" target="_blank" class="contact-details" style="text-decoration: none;">
-    <i class="fas fa-3x fa-envelope"></i>
-  </a>
+    <a href="mailto:mathiasranna@gmail.com" target="_blank" class="contact-details"
+       style="text-decoration: none;">
+        <i class="fas fa-3x fa-envelope"></i>
+    </a>
 
-    <a href="https://github.com/Mathiascoding" target="_blank" class="contact-details" id="profile-link" style="text-decoration: none;">
-    <i class="fab fa-3x fa-github"></i>
-  </a>
-  </div>
+    <a href="https://github.com/MathiasRanna" target="_blank" class="contact-details" id="profile-link"
+       style="text-decoration: none;">
+        <i class="fab fa-3x fa-github"></i>
+    </a>
+</div>
 
-  <!-- Footer -->
-  <div id="Footer">
+<!-- Footer -->
+<div id="Footer">
     <div id="Foot-cont">
-      <small>&copy; Copyright 2019, Mathias Ranna</small>
+        <small>&copy; Copyright 2019, Mathias Ranna</small>
     </div>
-  </div>
+</div>
 
 </div>
 <!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js'></script><script  src="./script.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js'></script>
+<script src="./script.js"></script>
 
 </body>
 </html>

@@ -249,13 +249,11 @@
   padding: 30px 0px;
 }
 
-#Proj-container-fline,
-#Proj-container-Sline {
+.Proj-container-line{
   display: inline-block;
 }
 @media screen and (max-width: 650px) {
-  #Proj-container-fline,
-#Proj-container-Sline {
+  .Proj-container-line{
     display: block;
   }
 }
